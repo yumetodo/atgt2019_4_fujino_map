@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title>スタイルつき GeoJSON 表示サンプル</title>
+<title>201410雲取山登山ルート</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 
@@ -97,7 +97,7 @@ xhr.onreadystatechange = function(){
 
   L.control.scale({imperial: false}).addTo(map);
   var baseLayers = {"地理院タイル（標準地図）": std};
-  var overlays = {'サンプル': sampleLayer };
+  var overlays = {'登山道': sampleLayer };
   L.control.layers(baseLayers, overlays,{position:'topright',collapsed:false}).addTo(map);
 };
 xhr.open('GET', './map.geojson', true);

@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20140931103854151",
+        "name": "1日目-1",
         "_markerType": null,
         "_className": null,
         "_color": "#FF0000",
@@ -714,7 +714,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20141002230527145",
+        "name": "1日目-2",
         "_markerType": null,
         "_className": null,
         "_color": "#FF0000",
@@ -1388,7 +1388,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20141003012146000",
+        "name": "大ダワ林道",
         "_markerType": null,
         "_className": null,
         "_color": "#00FF00",
@@ -1934,7 +1934,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20141003013932322",
+        "name": "二軒小屋尾根",
         "_markerType": null,
         "_className": null,
         "_color": "#00FF66",
@@ -2096,7 +2096,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20141003015423234",
+        "name": "女坂",
         "_markerType": null,
         "_className": null,
         "_color": "#FFFF00",
@@ -2182,7 +2182,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "STRING20141003092711002",
+        "name": "2日目",
         "_markerType": null,
         "_className": null,
         "_color": "#FF4B00",
