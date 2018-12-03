@@ -41,3 +41,5 @@ http://www.yamareco.com/modules/yamareco/detail-535876.html
 http://www.yamareco.com/modules/yamareco/detail-356938.html
 - 三峯神社⇔雲取山 [山行記録] - ヤマレコ  
 http://www.yamareco.com/modules/yamareco/detail-466462.html
+- 東日原-大ダワ林道（崩落消失）-雲取山-鴨沢 - 2018年04月08日 [登山・山行記録] - ヤマレコ  
+https://www.yamareco.com/modules/yamareco/detail-1424756.html
