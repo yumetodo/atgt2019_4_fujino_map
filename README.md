@@ -17,3 +17,11 @@ http://yumetodo.hateblo.jp/entry/2014/11/08/020141
 
 - スタイルつき GeoJSON 規約  
 https://github.com/gsi-cyberjapan/geojson-with-style-spec
+
+## 地図の中心点、ズームの変更
+
+URL末尾に`?longitude=35.858309&latitude=138.989754&zoom=12`のようにパラメータをつけることで変更された状態のものにアクセスできるようになります。
+
+- `longitude` (default: `35.858309`): 緯度。`-90 <= longitude <= 90`の数値
+- `latitude` (default: `138.989754`): 経度。`-180 <= latitude <= 180`の数値
+- `zoom` (default: `12`): ズーム。`2 <= zoom <= 18`の整数
