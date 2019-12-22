@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title>201410雲取山登山ルート</title>
+<title>2019年12月 atgt2019 4匁 藤野駅→緑のラブレター 愛の鐘</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
@@ -83,22 +83,31 @@ xhr.onreadystatechange = function(){
   var std = L.tileLayer(
     'https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',
     {
-      attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル（標準地図）</a>", 
-      maxNativeZoom: 18,
+      attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル（標準地図）</a>",
+      maxNativeZoom: 16,
       maxZoom: 18,
       opacity:1
+    }
+  );
+  var hillshademap = L.tileLayer(
+    'http://cyberjapandata.gsi.go.jp/xyz/hillshademap/{z}/{x}/{y}.png',
+    {
+      attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル（陰影起伏図）</a>",
+      maxNativeZoom: 16,
+      maxZoom: 18,
+      opacity:0.4
     }
   );
 
   // 中心位置設定
   var map = L.map('mapdiv', {
-    center: [35.858309, 138.989754], zoom: 12, layers: [std,sampleLayer]
+    center: [35.858309, 138.989754], zoom: 16, layers: [std,sampleLayer]
   });
 
   L.control.scale({imperial: false}).addTo(map);
-  var baseLayers = {"地理院タイル（標準地図）": std};
-  var overlays = {'登山道': sampleLayer };
-  L.control.layers(baseLayers, overlays,{position:'topright',collapsed:false}).addTo(map);
+  var stdLayers = {"地理院タイル（標準地図）": std};
+  var overlays = {'ルート': sampleLayer };
+  L.control.layers(baseLayers, overlays,{position:'topright',collapsed:false}).addBaseLayer("地理院タイル（陰影起伏図）", hillshademap).addTo(map);
 };
 xhr.open('GET', './map.geojson', true);
 xhr.send(null);
