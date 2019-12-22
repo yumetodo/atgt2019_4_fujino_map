@@ -132,13 +132,13 @@ xhr.onreadystatechange = function(){
       attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル（陰影起伏図）</a>",
       maxNativeZoom: 16,
       maxZoom: 18,
-      opacity:0.4
+      opacity:0.5
     }
   );
 
   // 中心位置設定
   var map = L.map('mapdiv', {
-    center: [longitude, latitude], zoom: zoom, layers: [std,sampleLayer]
+    center: [longitude, latitude], zoom: zoom, layers: [std,hillshademap,sampleLayer]
   });
 
   L.control.scale({imperial: false}).addTo(map);
