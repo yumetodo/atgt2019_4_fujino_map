@@ -4,6 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>2019年12月 atgt2019 4匁 藤野駅→緑のラブレター 愛の鐘</title>
+<!-- <link rel="preload" href="./map.geojson" as="fetch"> -->
+<!-- <link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232394/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232394/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232395/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232395/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232396/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232396/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232397/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232397/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232398/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232398/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232399/103289.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232399/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/std/18/232400/103290.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/hillshademap/16/58098/25822.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/hillshademap/16/58099/25822.png" as="image">
+<link rel="preload" href="https://cyberjapandata.gsi.go.jp/xyz/hillshademap/16/58100/25822.png" as="image"> -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
@@ -144,7 +161,7 @@ xhr.onreadystatechange = function(){
   L.control.scale({imperial: false}).addTo(map);
   var stdLayers = {"地理院タイル（標準地図）": std};
   var overlays = {'ルート': sampleLayer };
-  L.control.layers(baseLayers, overlays,{position:'topright',collapsed:false}).addBaseLayer("地理院タイル（陰影起伏図）", hillshademap).addTo(map);
+  L.control.layers(stdLayers, overlays,{position:'topright',collapsed:false}).addOverlay(hillshademap, "地理院タイル（陰影起伏図）").addTo(map);
 };
 xhr.open('GET', './map.geojson', true);
 xhr.send(null);
