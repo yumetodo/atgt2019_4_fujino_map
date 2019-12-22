@@ -4,12 +4,10 @@ https://yumetodo.github.io/atgt2019_4_fujino_map/index.html
 
 電子国土地理院の上に2019年12月にatgt2019 4匁のガムテ探しに藤野駅→緑のラブレター 愛の鐘に行ったときの登山ルートを作図します。
 
-登山の記事は
+記録記事は
 
-- 201410雲取山登山記-概要編- - yumetodoの旅とプログラミングとかの記録  
-http://yumetodo.hateblo.jp/entry/2014/11/08/015753
-- 201410雲取山登山記-詳細編- - yumetodoの旅とプログラミングとかの記録  
-http://yumetodo.hateblo.jp/entry/2014/11/08/020141
+atgt2019 4匁勇者記録 - yumetodoの旅とプログラミングとかの記録
+https://yumetodo.hateblo.jp/entry/2019/12/23/024751
 
 にあります。
 
