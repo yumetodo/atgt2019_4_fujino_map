@@ -6,7 +6,7 @@ https://yumetodo.github.io/atgt2019_4_fujino_map/index.html
 
 記録記事は
 
-atgt2019 4匁勇者記録 - yumetodoの旅とプログラミングとかの記録
+atgt2019 4匁勇者記録 - yumetodoの旅とプログラミングとかの記録  
 https://yumetodo.hateblo.jp/entry/2019/12/23/024751
 
 にあります。
