@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"color:rgb(0, 0, 255);background-color:#f3f3f3;\">ミス1: 白い砂利道に釣られて土道の正解ルートを見落とす</div>"
+        "_html": "<div style=\"color:rgb(0, 0, 255);background-color:#f3f3f3;display:inline-block;\">ミス1: 白い砂利道に釣られて土道の正解ルートを見落とす</div>"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"color:rgb(0, 0, 255);background-color:#f3f3f3;\">ミス2: 登山道の道標を見つけてたのに<br>それじゃないと思いこんで人のお墓に行く</div>"
+        "_html": "<div style=\"color:rgb(0, 0, 255);background-color:#f3f3f3;display:inline-block\">ミス2: 登山道の道標を見つけてたのに<br>それじゃないと思いこんで人のお墓に行く</div>"
       },
       "geometry": {
         "type": "Point",
@@ -54,7 +54,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"color:#0000ff;background-color:#f3f3f3;\">ミス3: 暗すぎて正解ルートが小さな沢だと思って入ったらだめと<br>判断して曲がらずに進む</div>"
+        "_html": "<div style=\"color:#0000ff;background-color:#f3f3f3;display:inline-block;\">ミス3: 暗すぎて正解ルートが小さな沢だと思って入ったらだめと<br>判断して曲がらずに進む</div>"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;\">①</div>"
+        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;display:inline-block;\">①</div>"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;\">②</div>"
+        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;display:inline-block;\">②</div>"
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +117,7 @@
       "type": "Feature",
       "properties": {
         "_markerType": "DivIcon",
-        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;\">③</div>"
+        "_html": "<div style=\"font-size:15pt;color:#0000ff;background-color:#f3f3f3;display:inline-block;\">③</div>"
       },
       "geometry": {
         "type": "Point",
